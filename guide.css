@@ -1,0 +1,40 @@
+
+.guide_table {
+    border: 2px solid darkolivegreen;
+    border-collapse: collapse;
+    width: 20%;
+    margin:auto;
+}
+
+.guide_item{
+    border: 1px solid darkolivegreen;
+    padding:5px;
+    text-align: center;
+}
+a:hover{
+    background-color: #98FB98;	
+}
+
+
+body{
+    background-color: lightgray;
+}
+@media (min-width: 750px) {
+    h1::before{
+        content: "Welcome to My Webpage!"
+    }
+}
+@media (max-width:749px){
+    h1::before{
+        content:"Welcome"
+    }
+}
+h1{
+    color:darkolivegreen;
+    text-align: center;
+}
+h2{
+    color:darkolivegreen;
+    text-align: left;
+    padding: 20px;
+}
